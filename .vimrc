@@ -41,3 +41,6 @@ nnoremap x "xx
 vnoremap x "xx
 nnoremap X "xX
 vnoremap X "xX
+
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
