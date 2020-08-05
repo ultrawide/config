@@ -7,10 +7,12 @@
 
 alias ls='ls --color=auto'
 alias devenv-android="~/android-studio/bin/studio.sh"
-PS1='[\u@\h \W]\$ '
 
-export GOOGLE_APPLICATION_CREDENTIALS="/home/colin/Downloads/slackbot-translator-5117702fce0c.json"
 export VISUAL="vim"
+
+# Java
+export JAVA_HOME=/usr/lib/jvm/java-14-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
 
 # Android
 export ANDROID_HOME=$HOME/Android/Sdk
