@@ -1,0 +1,2 @@
+xrandr --newmode "3440x1440_42.00"  284.75  3440 3656 4016 4592  1440 1443 1453 1478 -hsync +vsync
+xrandr --addmode HDMI-2 3440x1440_42.00
